@@ -10,7 +10,7 @@ jobs:
 
   test:
     name: Molecule
-    runs_in: ubuntu-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         distro:
