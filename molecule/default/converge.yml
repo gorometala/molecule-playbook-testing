@@ -8,4 +8,4 @@
         cache_valid_time: 3600
       when: ansible_os_family == "Debian"
 
-- import_playbook: ../ansible-apache2/main.yml
+- import_playbook: ../../apache2.yml
